@@ -1,0 +1,86 @@
+
+class Animalia1:
+    pass
+
+class chordata2():
+    pass
+
+class Reptilia3():
+    pass
+
+class Mammalia3():
+    pass
+
+class Testudines4():
+    pass
+
+class Carnivora4():
+    pass
+
+class Canidae5():
+    pass
+
+class Testudinidae5():
+    pass
+
+class Dermochelyidae5():
+    pass
+
+class Emydidae5():
+    pass
+
+class Podocnemididae5():
+    pass
+
+class Podocnemididae6():
+    pass
+
+class Vulpes6():
+    pass
+
+class Lycaon6():
+    pass
+
+class Terrapene6():
+    pass
+
+class Podocnemis6():
+    pass
+
+class Canis_familiaris7():
+    pass
+
+class Canis_lupus7():
+    pass
+
+class Canis_latrans7():
+    pass
+
+class Vulpes_vulpes7():
+    pass
+
+class Vulpes_lagopus7():
+    pass
+
+class Lycaon_pictus7():
+    pass
+
+class Testudo7():
+    pass
+
+class Chelonioidea7():
+    pass
+
+class Terrapene_carolina_carolina7():
+    pass
+
+class Terrapene_ornata7():
+    pass
+
+class Heosemys_spinosa7():
+    pass
+
+class Terrapene_ornata7():
+    pass
+
+class Podocnemis_unifilis7():
