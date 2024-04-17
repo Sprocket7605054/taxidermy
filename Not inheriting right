@@ -1,0 +1,64 @@
+
+class Animalia1:#Kingdom dog
+    def __init__(self, name):
+        self.name = name
+        self.kingdom = 'Yurr'
+
+    def display_properties(self):
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.kingdom)
+
+
+
+class chordata2(Animalia1):#Phylum dog
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.phylum = 'puur'
+
+    def display_properties(self):
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.phylum)
+
+class Mammalia3(): #Class dog
+    pass
+
+class Carnivora4():#Order dog
+    pass
+
+class Canidae5(): #Family Dog
+    pass
+
+class Vulpes6():#genus Fox
+    pass
+
+class Lycaon6(): #Genus coyote
+    pass
+
+class Canis6(): #Genus Dogs
+    pass
+
+class Canis_familiaris7():
+    pass
+
+class Canis_lupus7():
+    pass
+
+class Canis_latrans7():
+    pass
+
+class Vulpes_vulpes7():
+    pass
+
+class Vulpes_lagopus7():
+    pass
+
+class Lycaon_pictus7():
+    pass
+
+# Creating an instance of Animalia1
+animalia_instance = Animalia1("Kingdom dog")
+chordata_instance = chordata2("Phylum Dogs")
+# Calling display_properties method on the instance
+#animalia_instance.display_properties()
+chordata_instance.display_properties()
