@@ -1,0 +1,208 @@
+
+class Animalia1:#Kingdom dog
+    
+    def __init__(self, name):
+        self.Animilia = name
+        self.kingdom = 'Yurr'
+
+    def display_properties(self):
+        print("Name of taxonomy rank is:", self.Animilia)
+        print("The facts about this rank is:", self.kingdom)
+
+class chordata2(Animalia1):#Phylum dog
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.phylum = 'puur'
+
+    def display_properties(self):
+    
+        animalia_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.phylum)
+
+class Mammalia3(chordata2): #Class dog
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Class = 'guur'
+
+    def display_properties(self):
+    
+        chordata_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Class)
+
+class Carnivora4(Mammalia3):#Order dog
+   
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Order = 'fuur'
+
+    def display_properties(self):
+    
+        mammalia_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Order)
+
+class Canidae5(Carnivora4): #Family Dog
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Order = 'fuur'
+
+    def display_properties(self):
+    
+        carnivora_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Order)
+
+class Vulpes6(Canidae5):#genus Fox
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Order = 'fuur'
+
+    def display_properties(self):
+    
+        Canidae_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Order)
+
+class Lycaon6(Canidae5): #Genus coyote
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Order = 'fuur'
+
+    def display_properties(self):
+    
+        Canidae_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Order)
+
+class Canis6(Canidae5): #Genus Dogs
+    
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.Order = 'fuur'
+
+    def display_properties(self):
+    
+        Canidae_instance.display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.Order)
+
+class Canis_familiaris7(Canis6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'familiaris'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Canis_lupus7(Canis6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lupus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Canis_latrans7(Canis6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'latrans'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Vulpes_vulpes7(Vulpes6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'vulpes'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Vulpes_lagopus7(Vulpes6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Lycaon_pictus7(Lycaon6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Aves3(chordata2):#class
+    pass
+
+class Galliformes4(Aves3): #order turkey,chicken
+    pass
+
+class Phasianidae5(Galliformes4):#family
+    pass
+
+class Meleagris6(Phasianidae5):#genus v
+    pass
+
+class Meleagris_gallopavo7(Meleagris6):# specis
+    pass
+
+class Meleagris_ocellata7(Meleagris6)
+
+# Creating an instance of Animalia1
+animalia_instance = Animalia1("Kingdom dog")
+chordata_instance = chordata2("Phylum Dogs")
+mammalia_instance = Mammalia3("Class Dogs")
+carnivora_instance = Carnivora4("Order Dogs")
+Canidae_instance = Canidae5("Family Dog")
+canis_instance = Canis6('Genus Dog')
+Canis_familiaris_instance = Canis_familiaris7("Species Dog")
+Canis_lupus_instance = Canis_lupus7("Species Wolve?")
+Canis_latrans_instance = Canis_latrans7("Species Something")
+Vulpes_instance = Vulpes6('Genus Fox')
+Vulpes_vulpes_instance = Vulpes_vulpes7('Specis Red Fox?')
+Vulpes_lagopus_instance = Vulpes_lagopus7("Specis winter Fox")
+Lycaon_pictus_instance = Lycaon_pictus7(" Specis Coyote")
+
+# Calling display_properties method on the instance
+#animalia_instance.display_properties()
+Canis_familiaris_instance.display_properties()
+print("\n" * 2)
+Canis_lupus_instance.display_properties()
+print("\n" * 2)
+Canis_latrans_instance.display_properties()
+print("\n" * 2)
+Vulpes_vulpes_instance.display_properties()
+print("\n" * 2)
+Vulpes_lagopus_instance.display_properties()
+print("\n" * 2)
+Lycaon_pictus_instance.display_properties()
+print("\n" * 2)
