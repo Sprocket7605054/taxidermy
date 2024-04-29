@@ -133,7 +133,7 @@ class Canis_latrans7(Canis6):
 class Vulpes_vulpes7(Vulpes6):
     def __init__(self, name):
             super().__init__(name)
-            self.species = 'It is one of the larger fox breads. It also very adaptable to many enviroments. '
+            self.species = 'It is one of the larger fox breads. It also very adaptable to many enviroments. They are usally found in packes ranging from a couple and their kin to pairs of foxes.'
 
     def display_properties(self):
             super().display_properties()
@@ -143,7 +143,7 @@ class Vulpes_vulpes7(Vulpes6):
 class Vulpes_lagopus7(Vulpes6):
     def __init__(self, name):
             super().__init__(name)
-            self.species = 'lagopus'
+            self.species = 'The Winter fox is native to the artic region. It is known for the thick fur that is white and used as camoflauge. they typically dont live past their first year but if they do they can live to rough;y 11 years. '
 
     def display_properties(self):
             super().display_properties()
@@ -153,7 +153,7 @@ class Vulpes_lagopus7(Vulpes6):
 class Lycaon_pictus7(Lycaon6):
     def __init__(self, name):
             super().__init__(name)
-            self.species = 'lagopus'
+            self.species = 'The wild african dog as you would believe is wild. While hunting they often will tyred their prey out due to their stamimia. '
 
     def display_properties(self):
             super().display_properties()
