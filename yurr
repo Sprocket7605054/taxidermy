@@ -1,0 +1,321 @@
+
+class Animalia1:#Kingdom dog
+        
+    def __init__(self, name):
+            self.Animilia = name
+            self.kingdom = 'they are multi cell organisms that move and reproduce sexually.'
+
+    def display_properties(self):
+            print("Name of taxonomy rank is:", self.Animilia)
+            print("The facts about this rank is", self.kingdom)
+
+class chordata2(Animalia1):#Phylum dog
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.phylum = 'organisms have a nerve chord, a post-anal tail and has an endostyle or thyroid depending on the organism.'
+
+    def display_properties(self):
+        
+            animalia_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is", self.phylum)
+
+class Mammalia3(chordata2): #Class dog
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Class = 'is an anaimal with a vertebrate, can produce milk for their younglings'
+
+    def display_properties(self):
+        
+            chordata_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.Class)
+
+class Carnivora4(Mammalia3):#Order dog
+    
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Order = 'they eat meat. They also live on every landmass and the oceans'
+
+    def display_properties(self):
+        
+            mammalia_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.Order)
+
+class Canidae5(Carnivora4): #Family Dog
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Order = 'that it has three subsections: Caninae,Borophaginae and Hesperocyoninae. Caniae Canids often have long muzzels, upright ears'
+
+    def display_properties(self):
+        
+            carnivora_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is", self.Order)
+
+class Vulpes6(Canidae5):#genus Fox
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Order = 'They are typically smaller than other Canidae. Also have flatter skulls and black marking between their eyes and nose.'
+
+    def display_properties(self):
+        
+            Canidae_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.Order)
+
+class Lycaon6(Canidae5): #Genus coyote
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Order = 'they are more lighter and have four digits in their limbs. Also their teeth often have pointed ends.'
+
+    def display_properties(self):
+        
+            Canidae_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.Order)
+
+class Canis6(Canidae5): #Genus Dogs
+        
+    def __init__(self, name):
+            super().__init__(name)
+            self.name = name
+            self.Order = 'out of all the other canidae they have the most well devoloped skulls.'
+
+    def display_properties(self):
+        
+            Canidae_instance.display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.Order)
+
+class Canis_familiaris7(Canis6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'they have a heigtend sense of smell compare to the other canis family. They have very little sexual dismorphian but males are typically more taller and muscular compared to females.'
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is ", self.species)
+
+class Canis_lupus7(Canis6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'they have less pointed nose and ears compared to canis familiaris. Also they have a longer tail and a shorter torso.'
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.species)
+
+class Canis_latrans7(Canis6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'they are medium size compared to the other canis species. They also have a pointed ears and a bushy tail. Lastly they have a slender muzzle.'
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.species)
+
+class Vulpes_vulpes7(Vulpes6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'It is one of the larger fox breads. It also very adaptable to many enviroments. '
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.species)
+
+class Vulpes_lagopus7(Vulpes6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'lagopus'
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.species)
+
+class Lycaon_pictus7(Lycaon6):
+    def __init__(self, name):
+            super().__init__(name)
+            self.species = 'lagopus'
+
+    def display_properties(self):
+            super().display_properties()
+            print("Name of taxonomy rank is:", self.name)
+            print("The facts about this rank is:", self.species)
+class Aves3(chordata2):#class
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Galliformes4(Aves3): #order turkey,chicken
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Phasianidae5(Galliformes4):#family
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Meleagris6(Phasianidae5):#genus v
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Meleagris_gallopavo7(Meleagris6):# specis wild turkey
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Meleagris_ocellata7(Meleagris6):# ocilatted turkey
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Meleagris_gallopavo_domesticus7(Meleagris6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class 	Gallus6(Phasianidae5):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Gallus_gallus_domesticus7(Gallus6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Gallus_gallus7(Gallus6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+class Gallus_lafayettii7(Gallus6):
+    def __init__(self, name):
+        super().__init__(name)
+        self.species = 'lagopus'
+
+    def display_properties(self):
+        super().display_properties()
+        print("Name of taxonomy rank is:", self.name)
+        print("The facts about this rank is:", self.species)
+
+
+# Creating an instance of Animalia1
+animalia_instance = Animalia1("Kingdom dog")
+chordata_instance = chordata2("Phylum Dogs")
+mammalia_instance = Mammalia3("Class Dogs")
+carnivora_instance = Carnivora4("Order Dogs")
+Canidae_instance = Canidae5("Family Dog")
+canis_instance = Canis6('Genus Dog')
+Canis_familiaris_instance = Canis_familiaris7("Species Dog")
+Canis_lupus_instance = Canis_lupus7("Species Wolve?")
+Canis_latrans_instance = Canis_latrans7("Species Something")
+Vulpes_instance = Vulpes6('Genus Fox')
+Vulpes_vulpes_instance = Vulpes_vulpes7('Specis Red Fox?')
+Vulpes_lagopus_instance = Vulpes_lagopus7("Specis winter Fox")
+Lycaon_pictus_instance = Lycaon_pictus7(" Specis Coyote")
+Aves_instance =Aves3(" class bird")
+Galliformes_instance =Galliformes4(" order Coyote")
+Phasianidae_instance = Phasianidae5(" Family turkey")
+Meleagris_instance = Meleagris6("Genus Turkey")
+Meleagris_gallopavo_instance = Meleagris_gallopavo7("Specis Wild Turkey")
+Meleagris_ocellata_instance = Meleagris_ocellata7("Specis ocilated Turkey")
+Meleagris_gallopavo_domesticus_instance = Meleagris_gallopavo_domesticus7("specis Domestic Turkey")
+Gallus_ionstance = Gallus6(" Genus Chicken")
+Gallus_gallus_domesticus_instance = Gallus_gallus_domesticus7("Chicken")
+Gallus_gallus_instance = Gallus_gallus7("Red Junglefowl")
+Gallus_lafayettii_instance = Gallus_lafayettii7("Sir Lanken JungleFowl")
+
+
+
+
+
+
+
+
+
+
+# Calling display_properties method on the instance
+#animalia_instance.display_properties()
+Canis_familiaris_instance.display_properties()
+print("\n" * 2)
+Canis_lupus_instance.display_properties()
+print("\n" * 2)
+Canis_latrans_instance.display_properties()
+print("\n" * 2)
+Vulpes_vulpes_instance.display_properties()
+print("\n" * 2)
+Vulpes_lagopus_instance.display_properties()
+print("\n" * 2)
+Lycaon_pictus_instance.display_properties()
+print("\n" * 2)
