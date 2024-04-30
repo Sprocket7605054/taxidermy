@@ -162,7 +162,7 @@ class Lycaon_pictus7(Lycaon6):
 class Aves3(chordata2):#class
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'They have feathers with toothless beaked jaws. Also they lay hard-shelled eggs.'
 
     def display_properties(self):
         super().display_properties()
@@ -172,7 +172,7 @@ class Aves3(chordata2):#class
 class Galliformes4(Aves3): #order turkey,chicken
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'They are heavybodied compared to other species under the Aves classification. They are needed since they spread seeds throughout the ecosystem. They are known for running away from predators rather than flying away.'
 
     def display_properties(self):
         super().display_properties()
@@ -182,7 +182,7 @@ class Galliformes4(Aves3): #order turkey,chicken
 class Phasianidae5(Galliformes4):#family
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'This family is known consisting majority of the gamebirds in the world. Phasiandaes are ground-living birds rather than in nests '
 
     def display_properties(self):
         super().display_properties()
@@ -192,7 +192,7 @@ class Phasianidae5(Galliformes4):#family
 class Meleagris6(Phasianidae5):#genus v
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'Males of this genus have a wattle that is connected at the bottom of the beak. They are the largest birds in their classifications.'
 
     def display_properties(self):
         super().display_properties()
@@ -202,7 +202,7 @@ class Meleagris6(Phasianidae5):#genus v
 class Meleagris_gallopavo7(Meleagris6):# specis wild turkey
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'Wild turkeys are upland game bird which is the heaviest compared to the other species.  It is the ancestor to the domestic turkey'
 
     def display_properties(self):
         super().display_properties()
@@ -212,7 +212,7 @@ class Meleagris_gallopavo7(Meleagris6):# specis wild turkey
 class Meleagris_ocellata7(Meleagris6):# ocilatted turkey
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'They are lighter compared to the wild turkey. They are also more colorful compared to the wild. They colors is a bronze to a green color.'
 
     def display_properties(self):
         super().display_properties()
@@ -222,7 +222,7 @@ class Meleagris_ocellata7(Meleagris6):# ocilatted turkey
 class Meleagris_gallopavo_domesticus7(Meleagris6):
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'The domestic turkey is the same as the wild turkey but has been domesticated 2,000 years ago in Mesoamerica'
 
     def display_properties(self):
         super().display_properties()
@@ -232,7 +232,7 @@ class Meleagris_gallopavo_domesticus7(Meleagris6):
 class 	Gallus6(Phasianidae5):
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'The jungle fowl has four species under it. some of the species is the multitude of junglefowls and chicken. Jungle fowls are omnivores. They usally live in a social class that are agressive to each other where the term pecking order comes form.'
 
     def display_properties(self):
         super().display_properties()
@@ -242,7 +242,7 @@ class 	Gallus6(Phasianidae5):
 class Gallus_gallus_domesticus7(Gallus6):
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'The chicken is a large bird compared to  junglefowls. They also have short wings.'
 
     def display_properties(self):
         super().display_properties()
@@ -252,7 +252,7 @@ class Gallus_gallus_domesticus7(Gallus6):
 class Gallus_gallus7(Gallus6):
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'The color of the feather ranges from red, green,orange,gold.'
 
     def display_properties(self):
         super().display_properties()
