@@ -262,7 +262,7 @@ class Gallus_gallus7(Gallus6):
 class Gallus_lafayettii7(Gallus6):
     def __init__(self, name):
         super().__init__(name)
-        self.species = 'lagopus'
+        self.species = 'Sir Lakan Junglefowl is closly related to grey junglefowl. The males often resemble the red junglefowl while the females reseamble the grey junglefowl.'
 
     def display_properties(self):
         super().display_properties()
