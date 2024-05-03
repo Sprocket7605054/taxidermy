@@ -307,27 +307,82 @@ Gallus_lafayettii_instance = Gallus_lafayettii7("Sir Lanken JungleFowl")
 
 # Calling display_properties method on the instance
 #animalia_instance.display_properties()
-Canis_familiaris_instance.display_properties()
-print("\n" * 2)
-Canis_lupus_instance.display_properties()
-print("\n" * 2)
-Canis_latrans_instance.display_properties()
-print("\n" * 2)
-Vulpes_vulpes_instance.display_properties()
-print("\n" * 2)
-Vulpes_lagopus_instance.display_properties()
-print("\n" * 2)
-Lycaon_pictus_instance.display_properties()
-print("\n" * 2)
-Meleagris_gallopavo_instance.display_properties()
-print("\n" * 2)
-Meleagris_ocellata_instance.display_properties()
-print("\n" * 2)
-Meleagris_gallopavo_domesticus_instance.display_properties()
-print("\n" * 2)
-Gallus_gallus_domesticus_instance.display_properties()
-print("\n" * 2)
-Gallus_gallus_instance.display_properties()
-print("\n" * 2)
-Gallus_lafayettii_instance.display_properties()
-print("\n" * 2)
+
+def DAWG():
+    Canis_familiaris_instance.display_properties()
+    print("\n" * 2)
+
+def WOLFIE():
+    Canis_lupus_instance.display_properties()
+    print("\n" * 2)
+
+def WILe_E_COYOTEE():
+    Canis_latrans_instance.display_properties()
+    print("\n" * 2)
+
+def Flareon():
+    Vulpes_vulpes_instance.display_properties()
+    print("\n" * 2)
+
+def Vapereon():
+    Vulpes_lagopus_instance.display_properties()
+    print("\n" * 2)
+
+def Wild_african_DAWG():
+    Lycaon_pictus_instance.display_properties()
+    print("\n" * 2)
+
+def Nothing():
+    Meleagris_gallopavo_instance.display_properties()
+    print("\n" * 2)
+
+def occilated_Nothing():
+    Meleagris_ocellata_instance.display_properties()
+    print("\n" * 2)
+
+def Domesticated_Nothing():
+    Meleagris_gallopavo_domesticus_instance.display_properties()
+    print("\n" * 2)
+
+def Foghorn_Leghorn():
+    Gallus_gallus_domesticus_instance.display_properties()
+    print("\n" * 2)
+
+def Chica():
+    Gallus_gallus_instance.display_properties()
+    print("\n" * 2)
+
+def chicken_little():
+    Gallus_lafayettii_instance.display_properties()
+    print("\n" * 2)
+
+def main():
+    print("----Welcome to the UnderPaid Animal classification system----")
+    print("Please Pick an animal that you want information from.")
+    print("1:Dog")
+    print("2:Wolf")
+    print("3:Coyote")
+    print("4:Red Fox")
+    print("5:Artic Fox")
+    print("6:African Wild Dog")
+    print("7:Turkey")
+    print("8:Ocilatted Turkey")
+    print("9:Domesticated Turkey")
+    print("10:Chicken")
+    print("11:JungleFowl")
+    print("12:Sri Lanken Junglefowl")
+    print("\n")
+    menu_choice = input()
+    actions = {'1': DAWG, '2': WOLFIE, '3': WILe_E_COYOTEE, '4': Flareon, '5': Vapereon, '6': Wild_african_DAWG,'7':Nothing, '8':occilated_Nothing, '9': Domesticated_Nothing,'10':Foghorn_Leghorn, '11': Chica, '12': chicken_little }
+    if menu_choice in actions:
+        actions[menu_choice]()
+        main()
+    else:
+        print("Provide a valid input")
+        main()
+
+
+
+
+
+main()
